@@ -41,7 +41,7 @@ class DetectionPage extends StatelessWidget {
                 minScale: 0.5,
                 maxScale: 5,
                 child: Image.asset(
-                  'assets/images/result.jpg',
+                  'assets/images/result2.jpg',
                   fit: BoxFit.contain,
                 ),
               ),
@@ -207,7 +207,7 @@ class DetectionPage extends StatelessWidget {
                       child: AspectRatio(
                         aspectRatio: 4 / 3,
                         child: Image.asset(
-                          'assets/images/result.jpg',
+                          'assets/images/result2.jpg',
                           width: double.infinity,
                           fit: BoxFit.cover,
                         ),
